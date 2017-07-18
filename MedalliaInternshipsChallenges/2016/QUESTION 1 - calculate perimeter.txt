@@ -1,0 +1,38 @@
+QUESTION 1
+
+A rectangular field is to be fenced. 
+The north side is 20 meters long 
+and the area of the field is 680 squared meters. 
+How many meters of fencing will be required, if we were to fence all but the north side? 
+
+34
+68
+88
+108
+
+SOLUTION 
+
+ANSWER = Perimeter - northSide
+
+This is the formula to calculate the Perimeter: 
+	Perimeter = 2(width + heigth)
+
+I already know that width = northSide = 20m.
+So, I must calculate the height: 
+
+	Area = width * height 
+	680 m^2 = 20m * height
+	heigth = 68m/2 = 34m
+
+Now I calculate the Perimeter: 
+
+	Perimeter = 2 (20m + 34m) = 2 * 54m = 108m
+
+
+Back to top: 
+
+ANSWER = Perimeter - northSide
+ANSWER = 108m - 20m
+ANSWER = 88m
+
+FINAL ANSWER: 88 
