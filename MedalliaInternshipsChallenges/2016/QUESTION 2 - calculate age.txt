@@ -1,0 +1,43 @@
+QUESTION 2
+
+Q, R & T
+
+Q is as much younger than R as he is older than T. 
+If the sum of the ages of R and T is 50 years, 
+what is definitely the difference between R and Q's age?
+
+1year
+
+2 years
+
+25 years
+
+Data inadequate
+
+None of these
+
+
+ANSWER
+
+First pose the data: 
+	T < Q < R
+
+	Q + X = R 
+	T + X = Q -> T = Q - X
+
+Then, find Q's age:
+   R     + T     = 50
+   Q + X + Q - X = 50
+   Q = 25
+
+Then find R's age: 
+	-> I know that R has more than 25 years beacuse he is older than Q. 
+	-> Besides, he has less than 51 years, because R + T = 50.
+So: 
+	26 < R < 50 
+The question is the difference between R and Q's age.
+	1 < R - Q < 25
+
+There are 25 possibilities. And the data is inadequate. 
+
+FINAL ANSWER: DATA INADEQUATE 
