@@ -1,0 +1,37 @@
+QUESTION 3 
+
+4 children group. 
+
+You have to select 4 children from a group of 6 boys and 4 girls.
+In how many ways can this be done such that 
+at least 1 boy is part of the selected group 
+(without taking the order into account)? 
+
+159
+194
+205
+209
+
+
+ANSWER
+
+It is a combination problem, beacuse the order of the elements does not matter. 
+The formula is this: C(k, n) =  n! / k! (n - k)!
+
+My approach: 
+I will calculate all the possible ways to select 4 children from a group of 10 and then 
+I will subtract those ways in which the group is constituted only by girls. 
+
+	Answer = AllDifferentWays - GroupOfGirlsOnly
+
+And I know that GroupOfGirlsOnly = 1 because there are only 4 girls. 
+
+So, replace the values: 
+	Answer = AllDifferentWays - GroupOfGirlsOnly
+	Answer = 10! / 4! 6!    -   1
+	Answer = 10*9*8*7*6! / 4*3*2*6!   -   1
+	Answer = = 10*3*7 = 30*7   -   1
+	Answer = 210 - 1
+	Answer = 209
+
+	Final Answer = 209 
