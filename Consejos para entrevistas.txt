@@ -35,3 +35,20 @@ Entonces, no sólo hay que demostrarles que sabés programar, sino también que:
 	Estaba extremadamente nervioso. 
 	Estaba más interesado en las vacaciones que en el trabajo. 
 
+
+A LA HORA DE ABORDAR UN PROBLEMA: 
+
+1. Asegurate de comprender la consigna!!	//hacé preguntas para aclarar y especificar. 
+
+2. Empezá con un ejemplo.  			
+  //no sólo ejemplos válidos; también probá 
+  //qué pasa en casos extremos (0, null, negativo) o si el usuario pasa inputs incorrectos. 
+
+3. Explicá en voz alta tu razonamiento antes y mientras escribís el código. 
+   Comenzar con pseudocódigo y explicar que 1ro hacés esto como planteo y después 
+ vas a escribir código real.
+
+4. Podés hacer preguntas para corroborar el Punto 1 y chequear errores en casos especiales. 
+5. Si te atoraste, intentá con otros ejemplos. 
+6. A veces hay que considerar herramientas específicas de cada lenguaje (bit operations, union types, casting, etc.). 
+
