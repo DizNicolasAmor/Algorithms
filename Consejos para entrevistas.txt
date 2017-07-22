@@ -64,3 +64,16 @@ EN TU CV:
   -> Explicar brevemente para c/proyecto qué tecnología usaste (y si es posible, qué 
   herramienta concretamente) para resolver qué problema. 
 
+
+PREGUNTAS SOBRE TUS PROYECTOS: 
+
+  para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá: 
+	QUé fue lo más desafiante? 
+	lo más interesante? 
+	lo que aprendiste? 
+	el bug más difícil? 
+	lo que más disfrutaste?
+	qué conflictos superaste? 
+	cómo trabajaste en equipo (si fue el caso)? 
+  Es recomendable que tus respuestas sean breves (menos de 10 segundos). 
+
