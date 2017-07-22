@@ -83,3 +83,16 @@ HACER PREG A TUS ENTREVISTADORES
   Investigar sobre la empresa y pensar una o dos buenas preguntas. 
   Es recomendable xq así demostrás tus conocimientos, compromiso e tu interés. 
 
+
+TEMAS TÉCNICOS DE LAS ENTREVISTAS
+
+  Te van a pedir que expliques cómo y cuándo implementar alguno de los siguientes temas: 
+
+DATA STRUCTURES		ALGORITHMS		CONCEPTS
+Linked list		Breadth first search	Bit manipulation
+Binary trees		Depth first search	Singleton design patterns
+Tries 			Binary search		Factory design patterns
+Stacks			Merge sort		Memory (stack/heap)
+Queues 			Quick sort		Recursion
+Vectors / ArrayLists 	Tree insert/find/etc	Big-O time
+Hash Tables
