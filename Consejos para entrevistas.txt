@@ -52,3 +52,15 @@ A LA HORA DE ABORDAR UN PROBLEMA:
 5. Si te atoraste, intentá con otros ejemplos. 
 6. A veces hay que considerar herramientas específicas de cada lenguaje (bit operations, union types, casting, etc.). 
 
+
+EN TU CV: 
+
+  Los entrevistadores van a preguntarse sólo dos cosas: 1. si sabés programar. 2. si sos inteligente. 
+  Al ver tu CV tienen que poder responder claramente esas preguntas. Entonces, consejos:
+
+  -> Que tu CV no sea más de una hoja. 	//no se necesita más. 
+  -> Si no tenés experiencia, en vez de hacer un apartado que diga <experiencia>, 
+  podés hacer uno que diga <proyectos> e incluir los 4 mejores. 
+  -> Explicar brevemente para c/proyecto qué tecnología usaste (y si es posible, qué 
+  herramienta concretamente) para resolver qué problema. 
+
