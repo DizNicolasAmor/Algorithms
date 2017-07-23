@@ -96,3 +96,18 @@ Stacks			Merge sort		Memory (stack/heap)
 Queues 			Quick sort		Recursion
 Vectors / ArrayLists 	Tree insert/find/etc	Big-O time
 Hash Tables
+
+
+CINCO FORMAS DE ABORDAR LOS ALGORITMOS
+
+1. EJEMPLIFICAR. 
+2. RECONOCER PATRONES. 
+3. SIMPLIFICAR / GENERALIZAR. 
+   Por ej., imaginate que te preguntan cuántas formas hay de subir una escalera si se pueden 
+ subir de a 1, 2, 3 o 4 escalones. Para simplificarlo, pensá un algoritmo para 1 y 2 escalones. 
+4. ENCONTRAR CASO BASE
+   Tomar un caso mínimo. Por ej., si tenés que permutar las letras de un string, 
+ primero pensalo para un str de 2 char, después de 3 y desp vas a encontrar la regla. 
+5. BRAINSTORM DE DATA STRUCTURES
+   Recorrer las herammientas que podés usar y pensar cuál podría servirte o no y por qué. 
+
