@@ -56,6 +56,9 @@ In order to find the two bigest subsequences:
 var funPal = function(s){
 	if(typeof s !== 'string'){return 'Invalid input. You should set a String. ';}
 
+	if(s.length < 2 || s.length > 3000){		//constraint
+		return 'Invalid input.length.';
+	}
 	var score = 0,
 		limit,
 		subsequences = [];
@@ -63,8 +66,8 @@ var funPal = function(s){
 	//auxiliar function
 	var countPal = function(str){
 		var count = 0,
-    	  noLettersMatch = true,
-    	  arr = str.split('');
+		    noLettersMatch = true,
+		    arr = str.split('');
 
 		if(arr.length === 0){
 			return count;
@@ -82,7 +85,7 @@ var funPal = function(s){
 						arr = arr.slice(i+1, j); 
 						count += countPal(arr.join(''));
 						return count;
-    	    		}
+					}
 				}
 			}
 			if(noLettersMatch){
