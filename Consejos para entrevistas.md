@@ -6,7 +6,7 @@ Es un resumen de los libros recomendados por Medallia para prepararse para las e
 
 PG 1-50
 
-PRIMERAS SUGERENCIAS: 
+### PRIMERAS SUGERENCIAS: 
 
 -> Escribir código en papel. 
 -> Conocer tu CV. 
@@ -14,7 +14,7 @@ PRIMERAS SUGERENCIAS:
 -> Contar en voz alta tu razonamiento para abordar el problema. 
 
 
-HABILIDADES BLANDAS: 
+### HABILIDADES BLANDAS: 
 
   Los entrevistadores también evalúan aptitudes sociales (no sólo técnicas). 
 Tené en cuenta que van a decidir quién será su compañero 40hs/semana los próximos meses. 
@@ -36,7 +36,7 @@ Entonces, no sólo hay que demostrarles que sabés programar, sino también que:
 	Estaba más interesado en las vacaciones que en el trabajo. 
 
 
-A LA HORA DE ABORDAR UN PROBLEMA: 
+### A LA HORA DE ABORDAR UN PROBLEMA: 
 
 1. Asegurate de comprender la consigna!!	//hacé preguntas para aclarar y especificar. 
 
@@ -53,7 +53,7 @@ A LA HORA DE ABORDAR UN PROBLEMA:
 6. A veces hay que considerar herramientas específicas de cada lenguaje (bit operations, union types, casting, etc.). 
 
 
-EN TU CV: 
+### EN TU CV: 
 
   Los entrevistadores van a preguntarse sólo dos cosas: 1. si sabés programar. 2. si sos inteligente. 
   Al ver tu CV tienen que poder responder claramente esas preguntas. Entonces, consejos:
@@ -65,7 +65,7 @@ EN TU CV:
   herramienta concretamente) para resolver qué problema. 
 
 
-PREGUNTAS SOBRE TUS PROYECTOS: 
+### PREGUNTAS SOBRE TUS PROYECTOS: 
 
   para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá: 
 	QUé fue lo más desafiante? 
@@ -78,13 +78,13 @@ PREGUNTAS SOBRE TUS PROYECTOS:
   Es recomendable que tus respuestas sean breves (menos de 10 segundos). 
 
 
-HACER PREG A TUS ENTREVISTADORES
+### HACER PREG A TUS ENTREVISTADORES
 
   Investigar sobre la empresa y pensar una o dos buenas preguntas. 
   Es recomendable xq así demostrás tus conocimientos, compromiso e tu interés. 
 
 
-TEMAS TÉCNICOS DE LAS ENTREVISTAS
+### TEMAS TÉCNICOS DE LAS ENTREVISTAS
 
   Te van a pedir que expliques cómo y cuándo implementar alguno de los siguientes temas: 
 
@@ -98,7 +98,7 @@ Vectors / ArrayLists 	Tree insert/find/etc	Big-O time
 Hash Tables
 
 
-CINCO FORMAS DE ABORDAR LOS ALGORITMOS
+### CINCO FORMAS DE ABORDAR LOS ALGORITMOS
 
 1. EJEMPLIFICAR. 
 2. RECONOCER PATRONES. 
