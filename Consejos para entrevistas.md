@@ -56,8 +56,8 @@ Entonces, no sólo hay que demostrarles que sabés programar, sino también que:
 ### EN TU CV: 
 
   Los entrevistadores van a preguntarse sólo dos cosas: 
-  - 1) si sabés programar. 
-  - 2) si sos inteligente. 
+  - si sabés programar. 
+  - si sos inteligente. 
   
   Al ver tu CV tienen que poder responder claramente esas preguntas. Entonces, consejos:
 
