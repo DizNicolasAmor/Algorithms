@@ -55,27 +55,30 @@ Entonces, no sólo hay que demostrarles que sabés programar, sino también que:
 
 ### EN TU CV: 
 
-  Los entrevistadores van a preguntarse sólo dos cosas: 1. si sabés programar. 2. si sos inteligente. 
+  Los entrevistadores van a preguntarse sólo dos cosas: 
+  - 1. si sabés programar. 
+  - 2. si sos inteligente. 
+  
   Al ver tu CV tienen que poder responder claramente esas preguntas. Entonces, consejos:
 
-  -> Que tu CV no sea más de una hoja. 	//no se necesita más. 
-  -> Si no tenés experiencia, en vez de hacer un apartado que diga <experiencia>, 
-  podés hacer uno que diga <proyectos> e incluir los 4 mejores. 
-  -> Explicar brevemente para c/proyecto qué tecnología usaste (y si es posible, qué 
-  herramienta concretamente) para resolver qué problema. 
+ - Que tu CV no sea más de una hoja. 	//no se necesita más. 
+ - Si no tenés experiencia, en vez de hacer un apartado que diga <experiencia>, podés hacer uno que diga <proyectos> e incluir los 4 mejores. 
+ - Explicar brevemente para c/proyecto qué tecnología usaste (y si es posible, qué herramienta concretamente) para resolver qué problema. 
 
 
 ### PREGUNTAS SOBRE TUS PROYECTOS: 
 
-  para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá: 
-	QUé fue lo más desafiante? 
-	lo más interesante? 
-	lo que aprendiste? 
-	el bug más difícil? 
-	lo que más disfrutaste?
-	qué conflictos superaste? 
-	cómo trabajaste en equipo (si fue el caso)? 
-  Es recomendable que tus respuestas sean breves (menos de 10 segundos). 
+Para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá: 
+
+- Qué fue lo más desafiante? 
+- lo más interesante? 
+- lo que aprendiste? 
+- el bug más difícil? 
+- lo que más disfrutaste?
+- qué conflictos superaste? 
+- cómo trabajaste en equipo (si fue el caso)? 
+
+Es recomendable que tus respuestas sean breves (menos de 10 segundos). 
 
 
 ### HACER PREG A TUS ENTREVISTADORES
