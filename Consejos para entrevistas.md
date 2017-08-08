@@ -8,10 +8,10 @@ PG 1-50
 
 ### PRIMERAS SUGERENCIAS: 
 
--> Escribir código en papel. 
--> Conocer tu CV. 
--> No memorizar respuestas. 
--> Contar en voz alta tu razonamiento para abordar el problema. 
+- Escribir código en papel. 
+- Conocer tu CV. 
+- No memorizar respuestas. 
+- Contar en voz alta tu razonamiento para abordar el problema. 
 
 
 ### HABILIDADES BLANDAS: 
