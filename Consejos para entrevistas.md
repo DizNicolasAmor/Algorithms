@@ -1,7 +1,7 @@
 ## Consejos para entrevistas ##
 
 
-Es un resumen de los libros recomendados por Medallia para prepararse para las entrevistas. 
+Es un resumen de los libros recomendados por [Medallia (http://www.medallia.com.ar/internships/)] para prepararse para las entrevistas. 
 
 
 PG 1-50
