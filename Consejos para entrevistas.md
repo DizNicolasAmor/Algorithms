@@ -4,7 +4,7 @@
 Es un resumen de los libros recomendados por [Medallia](http://www.medallia.com.ar/internships/) para prepararse para las entrevistas. 
 
 
-PG 1-50
+*Páginas 1 a la 50. *
 
 ### PRIMERAS SUGERENCIAS: 
 
