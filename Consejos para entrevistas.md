@@ -91,14 +91,15 @@ Es recomendable que tus respuestas sean breves (menos de 10 segundos).
 
   Te van a pedir que expliques cómo y cuándo implementar alguno de los siguientes temas: 
 
-DATA STRUCTURES		ALGORITHMS		CONCEPTS
-Linked list		Breadth first search	Bit manipulation
-Binary trees		Depth first search	Singleton design patterns
-Tries 			Binary search		Factory design patterns
-Stacks			Merge sort		Memory (stack/heap)
-Queues 			Quick sort		Recursion
-Vectors / ArrayLists 	Tree insert/find/etc	Big-O time
-Hash Tables
+|   DATA STRUCTURES   |      ALGORITHMS     |          CONCEPTS        |
+|-------------------|:-----------------:|-------------------:|
+|        Linked list           |  Breadth first search  |       Bit manipulation    |
+|        Binary trees        |    Depth first search   | Singleton design patterns|
+|        Tries                  |    Binary search        | Factory design patterns |
+|        Stacks                |         Merge sort       |  Memory (stack/heap)  |
+|        Queues                |        Quick sort        |       Recursion            |
+|        Vectors/ ArrayLists|  Tree insert/find/etc |       Big-O time         |
+|        Hash Tables           |                            |                              |
 
 
 ### CINCO FORMAS DE ABORDAR LOS ALGORITMOS
