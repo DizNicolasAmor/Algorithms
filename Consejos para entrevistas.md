@@ -16,24 +16,22 @@ Es un resumen de los libros recomendados por [Medallia](http://www.medallia.com.
 
 ### HABILIDADES BLANDAS: 
 
-  Los entrevistadores también evalúan aptitudes sociales (no sólo técnicas). 
-Tené en cuenta que van a decidir quién será su compañero 40hs/semana los próximos meses. 
-Cuando te conozcan, se preguntarán "¿Estoy dispuesto a tomar una cerveza con esta persona?". 
-Entonces, no sólo hay que demostrarles que sabés programar, sino también que: 
-	Tenés buena presencia. 
-	Podés trabajar en equipo. 
-	Podés proponer y escuchar sugerencias. 
-	Podés resolver problemas por tu cuenta. 
-	Sos alguien en quien pueden confiar. 
-	Sos alguien con quien pueden tener buena convivencia. 
+  Los entrevistadores también evalúan aptitudes sociales (no sólo técnicas). Tené en cuenta que van a decidir quién será su compañero 40hs/semana los próximos meses. Cuando te conozcan, se preguntarán "¿Estoy dispuesto a tomar una cerveza con esta persona?". Entonces, no sólo hay que demostrarles que sabés programar, sino también que: 
+  
+- Tenés buena presencia. 
+- Podés trabajar en equipo. 
+- Podés proponer y escuchar sugerencias. 
+- Podés resolver problemas por tu cuenta. 
+- Sos alguien en quien pueden confiar. 
+- Sos alguien con quien pueden tener buena convivencia. 
 
   Después se dan ejemplos de candidatos con buenos conocimientos técnicos que fueron rechazados porque: 
-	Respondía todas las preguntas con monosílabas. 
-	Tardaba mucho en explicar todo. 
-	Era sucio y desprolijo. 
-	Era soberbio y obstinado. 
-	Estaba extremadamente nervioso. 
-	Estaba más interesado en las vacaciones que en el trabajo. 
+- Respondía todas las preguntas con monosílabas. 
+- Tardaba mucho en explicar todo. 
+- Era sucio y desprolijo. 
+- Era soberbio y obstinado. 
+- Estaba extremadamente nervioso. 
+- Estaba más interesado en las vacaciones que en el trabajo. 
 
 
 ### A LA HORA DE ABORDAR UN PROBLEMA: 
@@ -45,8 +43,7 @@ Entonces, no sólo hay que demostrarles que sabés programar, sino también que:
   //qué pasa en casos extremos (0, null, negativo) o si el usuario pasa inputs incorrectos. 
 
 3. Explicá en voz alta tu razonamiento antes y mientras escribís el código. 
-   Comenzar con pseudocódigo y explicar que 1ro hacés esto como planteo y después 
- vas a escribir código real.
+   Comenzar con pseudocódigo y explicar que 1ro hacés esto como planteo y después  vas a escribir código real.
 
 4. Podés hacer preguntas para corroborar el Punto 1 y chequear errores en casos especiales. 
 5. Si te atoraste, intentá con otros ejemplos. 
@@ -107,10 +104,10 @@ Es recomendable que tus respuestas sean breves (menos de 10 segundos).
 1. EJEMPLIFICAR. 
 2. RECONOCER PATRONES. 
 3. SIMPLIFICAR / GENERALIZAR. 
-   Por ej., imaginate que te preguntan cuántas formas hay de subir una escalera si se pueden 
+> Por ej., imaginate que te preguntan cuántas formas hay de subir una escalera si se pueden 
  subir de a 1, 2, 3 o 4 escalones. Para simplificarlo, pensá un algoritmo para 1 y 2 escalones. 
 4. ENCONTRAR CASO BASE
-   Tomar un caso mínimo. Por ej., si tenés que permutar las letras de un string, 
- primero pensalo para un str de 2 char, después de 3 y desp vas a encontrar la regla. 
+> Tomar un caso mínimo. Por ej., si tenés que permutar las letras de un string, primero pensalo para un str de 2 char, después de 3 y desp vas a encontrar la regla. 
 5. BRAINSTORM DE DATA STRUCTURES
-   Recorrer las herammientas que podés usar y pensar cuál podría servirte o no y por qué. 
+> Recorrer las herammientas que podés usar y pensar cuál podría servirte o no y por qué. 
+
