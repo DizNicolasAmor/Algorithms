@@ -355,3 +355,61 @@ function nth(list, num){
 }
 ```
 
+Deep comparison
+
+The == operator compares objects by identity. But sometimes, you would prefer to compare the values of their actual properties.
+
+Write a function, deepEqual, that takes two values and returns true only if they are the same value or are objects with the same properties whose values are also equal when compared with a recursive call to deepEqual.
+
+To find out whether to compare two things by identity (use the === operator for that) or by looking at their properties, you can use the typeof operator. If it produces "object" for both values, you should do a deep comparison. But you have to take one silly exception into account: by a historical accident, typeof null also produces "object".
+
+// Your code here.
+
+var obj = {here: {is: "an"}, object: 2};
+console.log(deepEqual(obj, obj));
+// true
+console.log(deepEqual(obj, {here: 1, object: 2}));
+// false
+console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
+// true
+
+
+function deepEqual(elem1, elem2){
+  //both elements are objects
+  if ( (typeof elem1 == "object" && elem1 != null) && (typeof elem2 == "object" && elem2 != null)){
+    if(Object.keys(elem1).length != Object.keys(elem2).length){
+      return false;
+    }
+    else{
+      for (var prop in elem1) {
+        if (elem2.hasOwnProperty(prop)){
+          if (!deepEqual(elem1[prop], elem2[prop])){
+            return false;
+          }
+        }
+        else return false;
+      }  //for
+      return true;
+    }
+  }
+  
+  //they are not objects
+  else if(elem1 === elem2){
+      return true;
+  }
+  else return false;
+}
+
+
+var obj = {here: {is: "an", other: "3"}, object: 2};
+console.log(deepEqual(obj, obj));
+// true
+console.log(deepEqual(obj, {here: 1, object: 2}));
+// false
+console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
+// false
+console.log(deepEqual(obj, {here: {is: "an", other: "2"}, object: 2}));
+// false
+console.log(deepEqual(obj, {here: {is: "an", other: "3"}, object: 2}));
+// true
+
