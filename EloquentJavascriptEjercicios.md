@@ -518,12 +518,12 @@ var byName = {};
 ancestry.forEach(function(person) {
   byName[person.name] = person;
 });
-/*
-byName es un mapa. Qué significa que sea un mapa? 
-Es como una guía para buscar los objetos de ancestry (que es un array de objetos),  en este caso ordenados por nombre. 
-byName es un gran objeto cuyas properties son los nombres de las personas de la familia. Y cada una de estas properties tiene como valor el objeto correspondiente a esta persona. Entonces vos podés hacer esto:   
-  console.log(byName['Carolus Haverbeke']);
-Y te va a devolver esto: 
+```
+
+/* byName es un mapa. Qué significa que sea un mapa? 
+
+Es como una guía para buscar los objetos de ancestry (que es un array de objetos),  en este caso ordenados por nombre. byName es un gran objeto cuyas properties son los nombres de las personas de la familia. Y cada una de estas properties tiene como valor el objeto correspondiente a esta persona. Entonces vos podés hacer esto:     console.log(byName['Carolus Haverbeke']);   Y te va a devolver esto: 
+```
 
 Object {
   born: 1832,
@@ -540,13 +540,19 @@ Object {
 
 var hasKnownMother = ancestry.filter(function(person) {
     return person.mother in byName;
-}); //con esta función filtro el aray de objetos ancestry. Sólo dejo los objetos que representan a personas cuya madre también está representada en el array. Cómo sucede esto? Porque las personas cuya madre no figura en el array, tampoco están en byName, entonces person.mother in byName da false y quedan afuera. 
+}); 
+```
 
+//con esta función filtro el aray de objetos ancestry. Sólo dejo los objetos que representan a personas cuya madre también está representada en el array. Cómo sucede esto? Porque las personas cuya madre no figura en el array, tampoco están en byName, entonces person.mother in byName da false y quedan afuera. 
 
+```
 var ageDifference = hasKnownMother.map(function(person){
   return person.born - byName[person.mother].born;
-}); //esta función map me devuelve un array de números. Cada uno representa la diferencia de edad entre una persona y su madre. 
+});
+```
 
+//esta función map me devuelve un array de números. Cada uno representa la diferencia de edad entre una persona y su madre. 
+```
 console.log(average(ageDifference));
 ```
 
