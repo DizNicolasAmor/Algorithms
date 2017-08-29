@@ -556,3 +556,49 @@ var ageDifference = hasKnownMother.map(function(person){
 console.log(average(ageDifference));
 ```
 
+#### Historical life expectancy ####
+
+When we looked up all the people in our data set that lived more than 90 years, only the latest generation in the data came out. Let’s take a closer look at that phenomenon. 
+
+Compute and output the average age of the people in the ancestry data set per century. A person is assigned to a century by taking their year of death, dividing it by 100, and rounding it up, as in Math.ceil(person.died / 100). 
+
+```
+function average(array) {
+  function plus(a, b) { return a + b; }
+  return array.reduce(plus) / array.length;
+}
+
+// Your code here.
+//   16: 43.5
+//   17: 51.2
+//   18: 52.8
+//   19: 54.8
+//   20: 84.7
+//   21: 94
+
+
+function lifeExpectancy(century){
+  var peopleOfThatCentury = ancestry.filter(function(person){
+    return Math.ceil(person.died / 100) == century;
+  });
+  var agesOfThatPeople = peopleOfThatCentury.map(function(person){
+    return person.died - person.born;
+  });
+  return average(agesOfThatPeople);
+  /* Other way
+  return average(ancestry.filter(function(person){
+    return Math.ceil(person.died / 100) == century;
+  }).map(function(person){
+    return person.died - person.born;
+  }));
+  */
+}
+
+console.log(lifeExpectancy(16));
+console.log(lifeExpectancy(17));
+console.log(lifeExpectancy(18));
+console.log(lifeExpectancy(19));
+console.log(lifeExpectancy(20));
+console.log(lifeExpectancy(21));
+```
+
