@@ -609,7 +609,7 @@ Arrays also come with the standard methods every and some. Both take a predicate
 
 Write two functions, every and some, that behave like these methods, except that they take the array as their first argument rather than being a method.
 
-````
+```
 // Your code here.
 console.log(every([NaN, NaN, NaN], isNaN));
 //  true
@@ -646,5 +646,59 @@ console.log(some([NaN, 3, 4], isNaN));
 //  true
 console.log(some([2, 3, 4], isNaN));
 //  false
-````
+```
 
+
+
+## Capítulo 6 ##
+
+
+#### Un tipo vector ####
+
+Escribe un constructor Vector que represente un vector en un espacio de dos dimensiones. Este toma x e y como parámetros (números), que se deben guardar como propiedades del mismo nombre.
+
+Añade al prototipo Vector dos métodos, plus(vector) y minus(vector), que toman otro vector como parámetro y devuelven un nuevo vector con el resultado de la suma o resta de los dos vectores (el vector almacenado en this y el parámetro) con sus valores x e y.
+
+Añade una propiedad getter length al prototipo que calcule la longitud del vector-esto es, la distancia del punto (x, y) desde el origen (0,0).
+
+```
+// Your code here.
+console.log(new Vector(1, 2).plus(new Vector(2, 3)));
+// Vector{x: 3, y: 5}
+console.log(new Vector(1, 2).minus(new Vector(2, 3)));
+// Vector{x: -1, y: -1}
+console.log(new Vector(3, 4).length);
+// 5
+
+function Vector(x, y){
+   this.x = x;
+   this.y = y;
+ }
+
+Vector.prototype.plus = function(vector) {
+  var otherVector = new Vector(this.x + vector.x, this.y + vector.y) 
+		return otherVector;
+}
+
+Vector.prototype.minus = function(vector) {
+  return new Vector(this.x - vector.x, this.y - vector.y);
+}
+
+Object.defineProperty(Vector.prototype, "length", {
+  get: function(){
+    return (Math.sqrt((this.x * this.x) + (this.y * this.y)));
+  }
+})
+
+var v = new Vector(3, 4);
+console.log('value in x: ' + v.x + '   value in y: ' + v.y);
+console.log('v.plus(v).length: ' + v.plus(v).length);
+console.log('v.minus(new Vector(1,2)).length: ' + v.minus(new Vector(1,2)).length);
+
+console.log(new Vector(1, 2).plus(new Vector(2, 3)));
+// Vector{x: 3, y: 5}
+console.log(new Vector(1, 2).minus(new Vector(2, 3)));
+// Vector{x: -1, y: -1}
+console.log(new Vector(3, 4).length);
+// 5
+```
