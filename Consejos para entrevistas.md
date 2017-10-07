@@ -39,8 +39,7 @@ Es un resumen de los libros recomendados por [Medallia](http://www.medallia.com.
 1. Asegurate de comprender la consigna!!	//hacé preguntas para aclarar y especificar. 
 
 2. Empezá con un ejemplo.  			
-  //no sólo ejemplos válidos; también probá 
-  //qué pasa en casos extremos (0, null, negativo) o si el usuario pasa inputs incorrectos. 
+> No sólo ejemplos válidos; también probá qué pasa en casos extremos (0, null, negativo) o si el usuario pasa inputs incorrectos. 
 
 3. Explicá en voz alta tu razonamiento antes y mientras escribís el código. 
    Comenzar con pseudocódigo y explicar que 1ro hacés esto como planteo y después  vas a escribir código real.
@@ -58,8 +57,8 @@ Es un resumen de los libros recomendados por [Medallia](http://www.medallia.com.
   
   Al ver tu CV tienen que poder responder claramente esas preguntas. Entonces, consejos:
 
- - Que tu CV no sea más de una hoja. 	//no se necesita más. 
- - Si no tenés experiencia, en vez de hacer un apartado que diga <experiencia>, podés hacer uno que diga <proyectos> e incluir los 4 mejores. 
+ - Que tu CV no sea más de una hoja. 
+ - Si no tenés experiencia, en vez de hacer un apartado que diga "experiencia", podés hacer uno que diga "proyectos" e incluir los 4 mejores. 
  - Explicar brevemente para c/proyecto qué tecnología usaste (y si es posible, qué herramienta concretamente) para resolver qué problema. 
 
 
