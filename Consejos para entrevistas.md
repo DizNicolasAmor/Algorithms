@@ -77,10 +77,13 @@ Para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá:
 Es recomendable que tus respuestas sean breves (menos de 10 segundos). 
 
 
-### HACER PREG A TUS ENTREVISTADORES
+### HACER PREGUNTAS A TUS ENTREVISTADORES
 
-  Investigar sobre la empresa y pensar una o dos buenas preguntas. 
-  Es recomendable xq así demostrás tus conocimientos, compromiso e tu interés. 
+- Investigar sobre la empresa y pensar una o dos buenas preguntas. Es recomendable xq así demostrás tus conocimientos, compromiso e tu interés. 
+
+- También es valioso pedirles un feedback sobre la entrevista. 
+ - Cuáles les parecen que son los puntos fuertes/débiles de mi perfil. 
+ - Cuáles son las aptitudes que más valoran en un candidato para este puesto en parcitular. 
 
 
 ### TEMAS TÉCNICOS DE LAS ENTREVISTAS
