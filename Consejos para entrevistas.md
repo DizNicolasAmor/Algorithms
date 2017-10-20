@@ -82,8 +82,14 @@ Es recomendable que tus respuestas sean breves (menos de 10 segundos).
 - Investigar sobre la empresa y pensar una o dos buenas preguntas. Es recomendable xq así demostrás tus conocimientos, compromiso e tu interés. 
 
 - También es valioso pedirles un feedback sobre la entrevista. 
- - Cuáles les parecen que son los puntos fuertes/débiles de mi perfil. 
- - Cuáles son las aptitudes que más valoran en un candidato para este puesto en parcitular. 
+  - Cuáles les parecen que son los puntos fuertes/débiles de mi perfil. 
+  - Cuáles son las aptitudes que más valoran en un candidato para este puesto en parcitular. 
+
+- Pedir consejos sobre cómo mejorar. Por ejemplo: "Si estuvieran en mi lugar, en los próximos tres meses... 
+  - qué conocimientos afianzarían? 
+  - dónde buscarían esa información? (es decir, si recomiendan una institución o curso en particular) 
+  - qué tecnología nueva aprenderían? 
+  - en qué tipo de proyectos se enfocarían? "
 
 
 ### TEMAS TÉCNICOS DE LAS ENTREVISTAS
