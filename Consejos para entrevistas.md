@@ -79,7 +79,7 @@ Es recomendable que tus respuestas sean breves (menos de 10 segundos).
 
 ### HACER PREGUNTAS A TUS ENTREVISTADORES
 
-- Investigar sobre la empresa y pensar una o dos buenas preguntas. Es recomendable xq así demostrás tus conocimientos, compromiso e tu interés. 
+- Investigar sobre la empresa y pensar una o dos buenas preguntas. Es recomendable xq así demostrás tu compromiso. 
 
 - También es valioso pedirles un feedback sobre la entrevista. 
   - Cuáles les parecen que son los puntos fuertes/débiles de mi perfil. 
@@ -90,6 +90,11 @@ Es recomendable que tus respuestas sean breves (menos de 10 segundos).
   - dónde buscarían esa información? (es decir, si recomiendan una institución o curso en particular) 
   - qué tecnología nueva aprenderían? 
   - en qué tipo de proyectos se enfocarían? "
+
+- Pedir consejos para algún proyecto que tengas en mente o que ya estés desarrollando. 
+  - cómo lo encararían ellos. 
+  - cómo podría mejorarse. 
+  - si cambiarían algo y por qué. 
 
 
 ### TEMAS TÉCNICOS DE LAS ENTREVISTAS
