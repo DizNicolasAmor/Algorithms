@@ -77,6 +77,18 @@ Para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá:
 Es recomendable que tus respuestas sean breves (menos de 10 segundos). 
 
 
+### CUÁNTO DINERO PRETENDÉS GANAR
+
+Ante esta pregunta, en lugar de dar una cifra exacta, planteo un rango (es decir, doy una cifra mínima y una máxima) y les digo que se puede negociar depende de las siguientes condiciones: 
+
+- si hay capacitaciones. 
+- si hay incentivos por productividad. 
+- si las tecnologías que voy a usar/ aprender me van a servir en el futuro p otros proyectos o es algo cada vez más marginal en el mercado. 
+- tipo de obra social. 
+- el ambiente y las condiciones de trabajo 
+> (esto en realidad conviene averiguarlo de antemano preguntándole a otras personas que ya hayan trabajado en la empresa. También es válido considerar temas como si el barrio de la empresa es peligroso, si hay pocos medios de transporte, o si el equipo de trabajo es de mala calidad, es decir, si te dan un monitor y una silla que te van a estropear la vista y la espalda a los dos meses de laburo). 
+
+
 ### HACER PREGUNTAS A TUS ENTREVISTADORES
 
 - Investigar sobre la empresa y pensar una o dos buenas preguntas. Es recomendable xq así demostrás tu compromiso. 
