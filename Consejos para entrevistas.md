@@ -89,6 +89,14 @@ Ante esta pregunta, en lugar de dar una cifra exacta, planteo un rango (es decir
 > (esto en realidad conviene averiguarlo de antemano preguntándole a otras personas que ya hayan trabajado en la empresa. También es válido considerar temas como si el barrio de la empresa es peligroso, si hay pocos medios de transporte, o si el equipo de trabajo es de mala calidad, es decir, si te dan un monitor y una silla que te van a estropear la vista y la espalda a los dos meses de laburo). 
 
 
+### CUÁLES SON TUS VIRTUDES / DEFECTOS: 
+
+En primer lugar, señalar uno o dos de cada uno. No irse por las ramas. 
+
+- En cuanto a las virtudes, evitar parecer soberbio. 
+- En cuanto a los defectos, evitar las frases hechas como "soy perfeccionista", "trabajo mucho", etc. (porque vas a quedar como alguien poco sincero y  que está escapando a la pregunta). En su lugar, es preferible señalar sinceramente algún defecto que reconozcas que tengas y luego explicar cómo estás trabajando para mejorar. 
+
+
 ### HACER PREGUNTAS A TUS ENTREVISTADORES
 
 - Investigar sobre la empresa y pensar una o dos buenas preguntas. Es recomendable xq así demostrás tu compromiso. 
