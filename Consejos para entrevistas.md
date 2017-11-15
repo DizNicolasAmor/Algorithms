@@ -144,3 +144,7 @@ En primer lugar, señalar uno o dos de cada uno. No irse por las ramas.
 5. BRAINSTORM DE DATA STRUCTURES
 > Recorrer las herammientas que podés usar y pensar cuál podría servirte o no y por qué. 
 
+### PARA ENTREVISTAS DE FRONT END 
+
+Visitar este [repositorio](https://github.com/h5bp/Front-end-Developer-Interview-Questions) con interesantes preguntas sobre el tema. 
+
