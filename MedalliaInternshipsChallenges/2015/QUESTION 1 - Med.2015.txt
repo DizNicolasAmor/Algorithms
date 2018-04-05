@@ -1,0 +1,26 @@
+Question 1
+
+The sum of the present ages of a father and his son is 60 years.
+Six years ago, father's age was five times the age of the son.
+After 6 years, son's age will be:
+
+12 years
+14 years
+18 years
+20 years
+
+Present:	Son: 14, Father: 46
+Father + Son = 60
+Father = 60 - Son
+
+Past: (six years ago)	Son: 8, Father: 40
+Father - 6 = (Son – 6 ) *5
+Father = (Son – 6 ) *5 + 6
+60 – Son = 5 Son – 30 + 6
+6 Son = 84
+Son = 14
+
+Future: (6 years later)	Son: 20, Father: 52
+
+Answer
+After 6 years, son's age will be: 20 years
