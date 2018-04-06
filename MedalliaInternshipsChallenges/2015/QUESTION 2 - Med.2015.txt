@@ -1,0 +1,28 @@
+﻿Question 2
+
+In how many different ways can the letters of the word 'DETAIL'
+be arranged in such a way that the vowels occupy only the odd positions?
+
+32
+48
+36
+60
+120
+
+Answer: 36
+
+Explanation:
+The constrain is the position of the vowels. So,
+
+All diff ways = All posibilities vowels can be arranged * All posibilities consonants can be arranged
+
+It is a permutation problem, beacuse
+-there are no repetitions
+-order of the elements does matter
+-number of elements are equal to number of positions.
+( DETAIL has 3 odd positions for 3 vowels and 3 even positions for 3 consonants).
+
+So,
+All diff ways = 3! * 3! = 6*6 = 36
+
+
