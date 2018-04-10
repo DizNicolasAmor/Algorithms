@@ -1,0 +1,45 @@
+QUESTION 3
+
+What are the differences between GET and POST, with respect to a HTTP request?
+Mention at least 3.
+
+1. GET can be cached. POST can not. 
+2. GET requests a representation of the specific resource, while POST submits data to be procesed. 
+3. GET alows only ascii char. POST has no restrictions (binary data is allowed).
+
+
+
+QUESTION 4
+
+Which of the following is not true of Javascript?
+
+- Javascript is case sensitive
+- Semicolons at the end of Javascript statements are required
+- Javascript statements can be grouped together in blocks
+- Javascript is loosely typed
+
+ANSWER: 
+
+- Semicolons at the end of Javascript statements are required
+
+Explanation: not always semicolons are required. Example: 
+var a = 4
+a = 0
+a += 3
+console.log(a)
+
+
+
+QUESTION 5 
+
+Which of the following Java declaration of the String array is correct?
+
+- String temp [] = new String {"j" "a" "z"};
+- String temp [] = { "j " " b" "c"};
+- String temp = {"a", "b", "c"};
+- String temp [] = {"a", "b", "c"};
+
+ANSWER: 
+
+The fourth option: 
+- String temp [] = {"a", "b", "c"};
