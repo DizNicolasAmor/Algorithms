@@ -1,0 +1,17 @@
+Question 6 
+
+Given the following declarations: 
+
+String s1=new String("Hello");
+String s2=new String("there");
+String s3=new String();
+
+Which of the following are legal operations?
+
+s3=s1 + s2;
+s3=s1 - s2;
+s3=s1 & s2;
+s3=s1 && s2;
+
+
+Answer:  1 and 3. 
