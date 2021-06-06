@@ -40,7 +40,7 @@ class BinarySearchTree:
         return self._size
 
     def get_root(self):
-        return self-_root
+        return self._root
 
     def insert(self, elem):
         if self._root is None:
@@ -62,7 +62,7 @@ class BinarySearchTree:
         return self._recursive_search(value, node.get_right_reference())
 
     def search(self, value):
-        return self._recursive_search(value, _root)
+        return self._recursive_search(value, self._root)
 
     def _remove_leaf_node(self, n):
         auxNode = Node(n._value)
@@ -90,61 +90,61 @@ class BinarySearchTree:
 
             smallest_right_node = find_smallest_node(branchful_node.get_right_reference())
             branchful_node._value = smallest_right_node._value
-            return _recursive_remove(smallest_right_node._value, smallest_right_node)
+            return self._recursive_remove(smallest_right_node._value, smallest_right_node)
 
     def _recursive_remove(self, value, node):
         if node is None:
             return
         elif node._value == value:
             if node.is_leaf():
-                return _remove_leaf_node(node)
+                return self._remove_leaf_node(node)
             else:
-                return remove_branchful_node(node)
+                return self.remove_branchful_node(node)
         elif value < node._value:
-            return _recursive_remove(value, node.get_left_reference())
+            return self._recursive_remove(value, node.get_left_reference())
         else:
-            return _recursive_remove(value, node.get_right_reference())
+            return self._recursive_remove(value, node.get_right_reference())
 
     def remove(self, value):
         self._recursive_remove(value, self._root)
 
     def _recursive_preorder(self, root, current_list):
         if root is not None:
-            current_list.append(root._value)
+            current_list.append(str(root._value))
         if root.get_left_reference() is not None:
-            current_list = _recursive_preorder(root.get_left_reference(), current_list)
+            current_list = self._recursive_preorder(root.get_left_reference(), current_list)
         if root.get_right_reference() is not None:
-            current_list = _recursive_preorder(root.get_right_reference(), current_list)
+            current_list = self._recursive_preorder(root.get_right_reference(), current_list)
         return current_list
 
     def preorder(self):
-        result_preorder_values = _recursive_preorder(_root, [])
+        result_preorder_values = self._recursive_preorder(self._root, [])
         return ", ".join(result_preorder_values)
 
     def _recursive_inorder(self, root, current_list):
-        if root.Left is not None:
-            current_list = _recursive_inorder(root.get_left_reference(), current_list)
+        if root.get_left_reference() is not None:
+            current_list = self._recursive_inorder(root.get_left_reference(), current_list)
         if root is not None:
-            current_list.append(root._value)
-        if root.Right is not None:
-            current_list = _recursive_inorder(root.get_right_reference(), current_list)
+            current_list.append(str(root._value))
+        if root.get_right_reference() is not None:
+            current_list = self._recursive_inorder(root.get_right_reference(), current_list)
 
         return current_list
 
     def inorder(self):
-        result_inorder_values = _recursive_inorder(_root, [])
+        result_inorder_values = self._recursive_inorder(self._root, [])
         return ", ".join(result_inorder_values)
 
     def _recursive_postorder(self, root, current_list):
-        if root.Left is not None:
-            current_list = _recursive_postorder(root.get_left_reference(), current_list)
-        if root.Right is not None:
-            current_list = _recursive_postorder(root.get_right_reference(), current_list)
+        if root.get_left_reference() is not None:
+            current_list = self._recursive_postorder(root.get_left_reference(), current_list)
+        if root.get_right_reference() is not None:
+            current_list = self._recursive_postorder(root.get_right_reference(), current_list)
         if root is not None:
-            current_list.append(root._value)
+            current_list.append(str(root._value))
 
         return current_list
 
     def postorder(self):
-        result_postorder_values = _recursive_postorder(_root, [])
+        result_postorder_values = self._recursive_postorder(self._root, [])
         return ", ".join(result_postorder_values)
