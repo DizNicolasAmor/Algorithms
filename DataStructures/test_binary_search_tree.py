@@ -118,22 +118,24 @@ class TestBinarySearchTree(TestCase):
     def test_should_postorder_six_messy_values(self):
         self.assertEqual("1, 3, 2, 5, 6, 4", self.tree_with_six_messy_values.postorder())
 
+
+    def test_search_should_return_none_when_empty_tree(self):
+        self.assertTrue(self.empty_BST_.search(3) is None)
+
+    def test_search_should_return_none_when_value_is_not_found(self):
+        self.assertTrue(self.tree_with_six_decreasing_values.search(9)  is None)
+
+    def test_search_should_return_a_node(self):
+        self.assertTrue(isinstance(self.tree_with_six_decreasing_values.search(5), Node))
+
+    def test_search_should_return_correct_value(self):
+        valueExample = 5
+        nodeExample = Node(valueExample)
+        result = self.tree_with_six_decreasing_values.search(valueExample)
+        self.assertEqual(nodeExample._value, result._value)
+
+
 """
-    def Search_WhenTreeIsEmpty_ShouldReturnNull() 
-        self.assertEqual(null, self.empty_BST_.Search(3)) 
- 
-    def Search_WhenTreeHasNotTheValue_ShouldReturnNull() 
-        self.assertEqual(null, self.tree_with_six_decreasing_values.Search(9)) 
- 
-    def Search_WhenTreeHasTheValue_ShouldReturnANode() 
-        self.assertEqual(true, self.tree_with_six_decreasing_values.Search(5) is Node) 
- 
-    def Search_WhenTreeHasTheValue_ShouldReturnTheCorrectNode() 
-        const int valueExample = 5; 
-        Node nodeExample = new Node(valueExample) 
-        Node result = self.tree_with_six_decreasing_values.Search(valueExample) 
-        self.assertEqual(nodeExample.Value, result.Value) 
- 
     def Remove_WhenTreeIsEmpty_ShouldReturnNull() 
         Assert.IsNull(self.empty_BST_.Remove(1)) 
  
