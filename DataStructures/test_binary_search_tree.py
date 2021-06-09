@@ -134,64 +134,63 @@ class TestBinarySearchTree(TestCase):
         result = self.tree_with_six_decreasing_values.search(valueExample)
         self.assertEqual(nodeExample._value, result._value)
 
+    def test_remove_should_return_none_when_tree_is_empty(self):
+        self.assertTrue(self.empty_BST_.remove(1) is None)
+
+    def test_remove_should_return_zero_size_when_tree_is_empty(self):
+        self.empty_BST_.remove(1)
+        self.assertTrue(self.empty_BST_.get_size() == 0)
+
+    def test_remove_should_return_none_when_unincluded_value(self):
+        removeResult = self.tree_with_six_increasing_values.remove(9)
+        self.assertTrue(removeResult is None)
+
+    def test_remove_should_return_same_size_when_unincluded_value(self):
+        previousSize = self.tree_with_six_increasing_values.get_size()
+        self.tree_with_six_increasing_values.remove(9)
+        nextSize = self.tree_with_six_increasing_values.get_size()
+        self.assertEqual(previousSize, nextSize)
+
+    def test_remove_should_return_correct_size_when_included_value(self):
+        previousSize = self.tree_with_six_increasing_values.get_size()
+        self.tree_with_six_increasing_values.remove(1)
+        nextSize = self.tree_with_six_increasing_values.get_size()
+        self.assertEqual(previousSize, nextSize + 1)
+
+    def test_remove_should_return_not_change_the_tree_when_included_value(self):
+        self.tree_with_six_increasing_values.remove(9)
+        self.assertEqual("1, 2, 3, 4, 5, 6", self.tree_with_six_increasing_values.preorder())
+        self.assertEqual("1, 2, 3, 4, 5, 6", self.tree_with_six_increasing_values.inorder())
+        self.assertEqual("6, 5, 4, 3, 2, 1", self.tree_with_six_increasing_values.postorder())
 
 """
-    def Remove_WhenTreeIsEmpty_ShouldReturnNull() 
-        Assert.IsNull(self.empty_BST_.Remove(1)) 
- 
-    def Remove_WhenTreeIsEmpty_TreeShouldHaveZeroSize() 
-        self.empty_BST_.Remove(1) 
-        self.assertEqual(0, self.empty_BST_.Size()) 
- 
-    def Remove_UnincludedValue_ShouldReturnNull() 
-        var removeResult = self.tree_with_six_increasing_values.Remove(9) 
-        Assert.IsNull(removeResult) 
- 
-    def Remove_UnincludedValue_TreeShouldHavePreviousSize() 
-        var previousSize = self.tree_with_six_increasing_values.Size() 
-        self.tree_with_six_increasing_values.Remove(9) 
-        var nextSize = self.tree_with_six_increasing_values.Size() 
-        self.assertEqual(previousSize, nextSize) 
- 
-    def Remove_IncludedValue_TreeShouldHavePreviousSizeMinusOne() 
-        var previousSize = self.tree_with_six_increasing_values.Size() 
-        self.tree_with_six_increasing_values.Remove(1) 
-        var nextSize = self.tree_with_six_increasing_values.Size() 
-        self.assertEqual(previousSize, nextSize + 1) 
- 
-    def Remove_UnincludedValue_ShouldNotAffectTheTree() 
-        self.tree_with_six_increasing_values.Remove(9) 
-        self.assertEqual("1, 2, 3, 4, 5, 6", self.tree_with_six_increasing_values.preorder()) 
-        self.assertEqual("1, 2, 3, 4, 5, 6", self.tree_with_six_increasing_values.inorder())
-        self.assertEqual("6, 5, 4, 3, 2, 1", self.tree_with_six_increasing_values.postorder()) 
- 
-    def Remove_IncludedValue_ShouldReturnCorrectNode() 
-        var removedNode = self.tree_with_six_increasing_values.Remove(3) 
-        self.assertEqual(3, removedNode.Value) 
+    def test_remove_should_return_correct_node_when_included_value(self):
+        removedNode = self.tree_with_six_increasing_values.remove(3)
+        self.assertEqual(3, removedNode._value)
  
     def Remove_ValueFromSixIncreasingValues_ShouldRemoveItFromTree() 
-        self.tree_with_six_increasing_values.Remove(3) 
+        self.tree_with_six_increasing_values.remove(3) 
         self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_increasing_values.preorder()) 
         self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_increasing_values.inorder()) 
         self.assertEqual("6, 5, 4, 2, 1", self.tree_with_six_increasing_values.postorder()) 
  
     def Remove_ValueFromSixDecreasingValues_ShouldRemoveItFromTree() 
-        self.tree_with_six_decreasing_values.Remove(3) 
+        self.tree_with_six_decreasing_values.remove(3) 
         self.assertEqual("6, 5, 4, 2, 1", self.tree_with_six_decreasing_values.preorder()) 
         self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_decreasing_values.inorder()) 
         self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_decreasing_values.postorder()) 
  
     def Remove_ValueFromSixMessyValues_ShouldRemoveItFromTree() 
-        self.tree_with_six_messy_values.Remove(3)
+        self.tree_with_six_messy_values.remove(3)
         self.assertEqual("4, 2, 1, 6, 5", self.tree_with_six_messy_values.preorder()) 
         self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_messy_values.inorder()) 
         self.assertEqual("1, 2, 5, 6, 4", self.tree_with_six_messy_values.postorder()) 
  
     def Remove_LeafNode_ShouldIntegrateCorrectlyAllTools() 
-        int targetToRemove = 6; 
-        int previousSize = self.tree_with_six_increasing_values.Size() 
-        Node removedNode = self.tree_with_six_increasing_values.Remove(targetToRemove) 
-        int nextSize = self.tree_with_six_increasing_values.Size() 
+        targetToRemove = 6
+        previousSize = self.tree_with_six_increasing_values.get_size()
+        Node removedNode = self.tree_with_six_increasing_values.remove(targetToRemove) 
+        nextSize = self.tree_with_six_increasing_values.get_size()
  
         self.assertEqual(targetToRemove, removedNode.Value) 
         self.assertEqual(true, removedNode is Node) 
@@ -201,10 +200,10 @@ class TestBinarySearchTree(TestCase):
         self.assertEqual("5, 4, 3, 2, 1", self.tree_with_six_increasing_values.postorder()) 
  
     def Remove_NodeWithRightChild_ShouldIntegrateCorrectlyAllTools() 
-        int targetToRemove = 5; 
-        int previousSize = self.tree_with_six_increasing_values.Size() 
-        Node removedNode = self.tree_with_six_increasing_values.Remove(targetToRemove) 
-        int nextSize = self.tree_with_six_increasing_values.Size() 
+        targetToRemove = 5
+        previousSize = self.tree_with_six_increasing_values.get_size()
+        Node removedNode = self.tree_with_six_increasing_values.remove(targetToRemove) 
+        nextSize = self.tree_with_six_increasing_values.get_size()
  
         self.assertEqual(targetToRemove, removedNode.Value) 
         self.assertEqual(true, removedNode is Node) 
@@ -214,10 +213,10 @@ class TestBinarySearchTree(TestCase):
         self.assertEqual("6, 4, 3, 2, 1", self.tree_with_six_increasing_values.postorder()) 
  
     def Remove_NodeWithLeftChild_ShouldIntegrateCorrectlyAllTools() 
-        int targetToRemove = 5; 
-        int previousSize = self.tree_with_six_decreasing_values.Size() 
-        Node removedNode = self.tree_with_six_decreasing_values.Remove(targetToRemove) 
-        int nextSize = self.tree_with_six_decreasing_values.Size() 
+        targetToRemove = 5
+        previousSize = self.tree_with_six_decreasing_values.get_size()
+        Node removedNode = self.tree_with_six_decreasing_values.remove(targetToRemove) 
+        nextSize = self.tree_with_six_decreasing_values.get_size()
  
         self.assertEqual(targetToRemove, removedNode.Value) 
         self.assertEqual(true, removedNode is Node) 
@@ -227,10 +226,10 @@ class TestBinarySearchTree(TestCase):
         self.assertEqual("1, 2, 3, 4, 6", self.tree_with_six_decreasing_values.postorder()) 
  
     def Remove_NodeWithBothChilds_ShouldIntegrateCorrectlyAllTools() 
-        int targetToRemove = 4; 
-        int previousSize = self.tree_with_six_messy_values.Size() 
-        Node removedNode = self.tree_with_six_messy_values.Remove(targetToRemove) 
-        int nextSize = self.tree_with_six_messy_values.Size()
+        targetToRemove = 4
+        previousSize = self.tree_with_six_messy_values.get_size()
+        Node removedNode = self.tree_with_six_messy_values.remove(targetToRemove) 
+        nextSize = self.tree_with_six_messy_values.get_size(
 
         // self.assertEqual(targetToRemove, removedNode.Value) 
         self.assertEqual(true, removedNode is Node) 
