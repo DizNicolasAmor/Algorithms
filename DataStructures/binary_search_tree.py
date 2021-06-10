@@ -106,7 +106,7 @@ class BinarySearchTree:
             return self._recursive_remove(value, node.get_right_reference())
 
     def remove(self, value):
-        self._recursive_remove(value, self._root)
+        self._recursive_remove(value, self.get_root())
 
     def _recursive_preorder(self, root, current_list):
         if root is not None:

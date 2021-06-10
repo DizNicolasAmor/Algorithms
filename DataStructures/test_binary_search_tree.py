@@ -163,29 +163,32 @@ class TestBinarySearchTree(TestCase):
         self.assertEqual("1, 2, 3, 4, 5, 6", self.tree_with_six_increasing_values.inorder())
         self.assertEqual("6, 5, 4, 3, 2, 1", self.tree_with_six_increasing_values.postorder())
 
-"""
     def test_remove_should_return_correct_node_when_included_value(self):
-        removedNode = self.tree_with_six_increasing_values.remove(3)
-        self.assertEqual(3, removedNode._value)
- 
-    def Remove_ValueFromSixIncreasingValues_ShouldRemoveItFromTree() 
-        self.tree_with_six_increasing_values.remove(3) 
-        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_increasing_values.preorder()) 
-        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_increasing_values.inorder()) 
-        self.assertEqual("6, 5, 4, 2, 1", self.tree_with_six_increasing_values.postorder()) 
- 
-    def Remove_ValueFromSixDecreasingValues_ShouldRemoveItFromTree() 
-        self.tree_with_six_decreasing_values.remove(3) 
-        self.assertEqual("6, 5, 4, 2, 1", self.tree_with_six_decreasing_values.preorder()) 
-        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_decreasing_values.inorder()) 
-        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_decreasing_values.postorder()) 
- 
-    def Remove_ValueFromSixMessyValues_ShouldRemoveItFromTree() 
+        self.empty_BST_.insert(Node(1))
+        self.assertTrue(self.empty_BST_.get_size() == 1)
+        self.assertTrue(isinstance(self.empty_BST_.get_root(), Node))
+        removed_node = self.empty_BST_.remove(1)
+        self.assertTrue(self.empty_BST_.get_size() == 0)
+        self.assertTrue(self.empty_BST_.get_root() is None)
+        self.assertEqual(1, removed_node._value)
+
+    def test_remove_should_remove_value_from_tree(self):
+        self.tree_with_six_increasing_values.remove(3)
+        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_increasing_values.preorder())
+        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_increasing_values.inorder())
+        self.assertEqual("6, 5, 4, 2, 1", self.tree_with_six_increasing_values.postorder())
+
+        self.tree_with_six_decreasing_values.remove(3)
+        self.assertEqual("6, 5, 4, 2, 1", self.tree_with_six_decreasing_values.preorder())
+        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_decreasing_values.inorder())
+        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_decreasing_values.postorder())
+
         self.tree_with_six_messy_values.remove(3)
-        self.assertEqual("4, 2, 1, 6, 5", self.tree_with_six_messy_values.preorder()) 
-        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_messy_values.inorder()) 
-        self.assertEqual("1, 2, 5, 6, 4", self.tree_with_six_messy_values.postorder()) 
- 
+        self.assertEqual("4, 2, 1, 6, 5", self.tree_with_six_messy_values.preorder())
+        self.assertEqual("1, 2, 4, 5, 6", self.tree_with_six_messy_values.inorder())
+        self.assertEqual("1, 2, 5, 6, 4", self.tree_with_six_messy_values.postorder())
+
+"""
     def Remove_LeafNode_ShouldIntegrateCorrectlyAllTools() 
         targetToRemove = 6
         previousSize = self.tree_with_six_increasing_values.get_size()
